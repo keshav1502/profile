@@ -1,0 +1,522 @@
+/*circle*/
+
+.roundimg {
+    border-radius: 50%;
+    padding: 20px;
+}
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1.1em;
+  margin: 10px;
+}
+.navbar .navbar-nav .nav-link:hover{
+  color: #808080;
+}
+.navbar-logo-centered .navbar-nav .nav-link{
+  padding: .5em 1em;
+}
+
+.background-image{
+  background-image: url(2.png);
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h4{
+  font-size: 30px;
+    margin-bottom: -5px;
+    text-align: center;
+}
+
+h2{
+  padding-top: 10px;
+  font-size: 30px;
+    margin-bottom: -5px;
+}
+
+p{
+  text-align: center;
+  padding: 10px;
+  margin: 13%;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook 
+ .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+ Twitter 
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}*/
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: -5px;
+  
+}
+
+/*skills*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.skills_section{
+  margin-top: 35%;
+    width: 100%;
+    height: 100vh;
+    padding: 0px 13%;
+    background-color: rgba(0, 0, 0, 0.082);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills_head{
+    width: 100%;
+    margin-bottom: 100px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.skills_head h2{
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+.skills_head h2 span{
+    color: #e74d06;
+}
+.skills_main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+.skills_main .skill_bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+}
+.skill_bar .info p:nth-child(2){
+    font-weight: 500;
+}
+.skill_bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+.skill_bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #e74d06;
+    border-radius: 25px;
+}
+.skill_bar .bar .html{
+    width: 90%;
+    animation: html 2s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+.skill_bar .bar .css{
+    width: 85%;
+    animation: css 2s;
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }100%{
+        width: 85%;
+    }
+}
+.skill_bar .bar .bootstrap{
+    width: 80%;
+    animation: bootstrap 2s;
+}
+@keyframes bootstrap {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .C{
+    width: 85%;
+    animation: css 2s;
+}
+@keyframes C {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .C{
+    width: 80%;
+    animation: bootstrap 2s;
+}
+@keyframes bootstrap {
+    0%{
+        width: 0%;
+    }100%{
+        width: 85%;
+    }
+}
+.skill_bar .bar .C{
+    width: 85%;
+    animation: C 2s;
+}
+@keyframes C {
+    0%{
+        width: 0%;
+    }100%{
+        width: 85%;
+    }
+}
+.skill_bar .bar .jquery{
+    width: 30%;
+    animation: jquery 2s;
+}
+@keyframes jquery {
+    0%{
+        width: 0%;
+    }100%{
+        width: 30%;
+    }
+}
+.skill_bar .bar .Javascript{
+    width: 60%;
+    animation: Javascript 2s;
+}
+@keyframes Javascript {
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}
+
+/*hobbies*/
+
+.Hobbies{
+
+    width: 100%;
+    height: 50%;
+    padding: 0px 13%;
+    background-color: rgba(0, 0, 0, 0.082);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.My-Hobbies{
+    width: 100%;
+    margin-bottom: 100px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.My-Hobbies h2{
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+.My-Hobbies h2 span{
+    color: #e74d06;
+}
+
+
+
+
+
+/* Coding With Nick */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    line-height: 1.15;
+}
+body{
+    font-family: 'roboto', sans-serif;
+    color: #454545;
+    font-weight: 400;
+    background: #ffffff;
+}
+a{
+    color: #333333;
+    font-weight: 400;
+    outline: none;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.container{
+    width: 100%;
+    padding-right:15px ;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.column{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.section-title{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 45px 0 30px 0;
+}
+.section-title::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    left: 0;
+    background: #eeeeee;
+}
+.effect{
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.effect .effect-img{
+    font-size: 0;
+    overflow: hidden;
+}
+.effect .effect-img img{
+    width: 100%;
+    height: auto;
+    transition: all .3s;
+}
+.effect:hover .effect-img img{
+    transform: scale(1.2);
+}
+.effect .effect-text{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    overflow: hidden;
+    transition: all .3s ease-in;
+    opacity: 0;
+}
+.effect .effect-text .inner{
+    position: absolute;
+    padding: 15px;
+    z-index: 1;
+}
+.effect .effect-text:before,
+.effect .effect-text:after{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 0;
+    content: '';
+}
+.effect .effect-text:before{
+    border-top: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+    left: -100%;
+    top: 0;
+}
+.effect .effect-text:after{
+    border-bottom: 3px solid #ffffff;
+    border-left: 3px solid #ffffff;
+    left: 100%;
+    bottom: 0;
+}
+.effect:hover .effect-text{
+    opacity: 1;
+}
+.effect:hover .effect-text:after,
+.effect:hover .effect-text:before{
+    animation-delay: .1s;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.effect:hover .effect-text:after{
+    animation-name: left-up;
+}
+.effect:hover .effect-text:before{
+    animation-name: right-dn;
+}
+@-webkit-keyframes left-up {
+    0% {
+        left: 100%;
+        height: 0;
+    }
+    50% {
+        left: 0;
+        height: 0;
+    }
+    100% {
+        height: 100%;
+        left: 0;
+    }
+}
+@-webkit-keyframes right-dn {
+    0% {
+        left: -100%;
+        height: 0;
+    }
+    50% {
+        left: 0;
+        height: 0;
+    }
+    100% {
+        height: 100%;
+        left: 0;
+    }
+}
+.effect .effect-text h2{
+    height: 45px;
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0;
+}
+.effect .effect-text p{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.effect .effect-btn .btn{
+    display: inline-block;
+    height: 35px;
+    padding: 7px 15px;
+    color: #333333;
+    background: #ffffff;
+}
+@media (min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+    .column{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+    .column{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+    .column{
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+
+/*gallery*/
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+  }
+  
+  .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+  }
+  
+  .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  @media (max-width: 450px) {
+    .gallery {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+      -webkit-column-width: 100%;
+      -moz-column-width: 100%;
+      column-width: 100%;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .btn.filter {
+      padding-left: 1.1rem;
+      padding-right: 1.1rem;
+    }
+  }
+
+
+  
+
+
+
+
